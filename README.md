@@ -1,5 +1,5 @@
 # tft-analyser
-Dashboard for Teamfight Tactics where you can:
+Dashboard for Teamfight Tactics where you can (in the future..WIP):
 * Lookup users
 * Analyse match history
 * Log in and bookmark users
