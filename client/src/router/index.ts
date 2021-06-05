@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
 import Home from "@/views/Home.vue";
 import Register from "@/components/Register.vue";
+import App from '@/components/App.vue';
 
 Vue.use(VueRouter);
 
@@ -24,6 +25,11 @@ const routes: Array<RouteConfig> = [
     path: "/register",
     name: "register",
     component: Register
+  },
+  {
+    path: "/apptest",
+    name: "apptest",
+    component: App
   },
 ];
 
